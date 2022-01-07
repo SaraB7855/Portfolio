@@ -1,0 +1,338 @@
+.consolas-font {
+  font-family: Consolas;
+}
+.oswald-font {
+  font-family: "Oswald", sans-serif;
+}
+.filter {
+  filter: invert(67%) sepia(51%) saturate(1805%) hue-rotate(169deg)
+    brightness(100%) contrast(98%);
+}
+.light-blue {
+  color: #42c0fb;
+}
+.light-gray {
+  color: #8892b0;
+}
+.fs-1-2 {
+  font-size: 1.2rem;
+}
+h1 {
+  color: #ccd6f6;
+  /* color: rgb(226, 96, 118); */
+  margin: 0 0 2% 0;
+  font-size: 5rem;
+  font-weight: 600;
+}
+h2 {
+  color: #8892b0;
+  /* color: white; */
+  margin: 0 0 2% 0;
+  font-size: 4rem;
+  font-weight: 600;
+}
+h3 {
+  color: #ccd6f6;
+  font-size: 2.5rem;
+}
+
+.site-background {
+  background-color: #280028;
+  margin: 1% 2% 0 2%;
+}
+
+#homepage {
+  margin-top: 15%;
+}
+/* Nav Bar */
+nav {
+  display: flex;
+  height: 100px;
+  z-index: 1;
+}
+
+.nav-links {
+  color: #ccd6f6;
+  text-decoration: none;
+  margin: 25px;
+  font-size: 1.3rem;
+}
+
+#navigation {
+  margin-left: auto;
+  align-self: center;
+}
+
+#navigation a:hover {
+  color: #42c0fb;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 95%;
+  background-color: #280028;
+}
+
+.logo-img {
+  height: 80%;
+}
+
+.title {
+  color: #fff;
+  margin: 10% 20%;
+}
+/* About me section */
+.about-us-content {
+  margin: 10% 20%;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+.portfolio-image {
+  width: 70%;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list-item {
+  padding-left: 3em;
+  font-size: 17px;
+}
+
+.bullet-list {
+  display: flex;
+}
+
+/* Project section */
+.title-project {
+  text-align: start;
+  margin-left: 20%;
+}
+
+.projects-content {
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 25rem;
+}
+
+.project-left-card {
+  background-color: #1e9bd4;
+}
+
+.project-right-card {
+  background-color: #1e9bd4;
+  margin-left: 24%;
+}
+
+.project-left-card a img {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -webkit-filter: alpha(opacity=50);
+  transition-duration: 1s;
+}
+
+.project-right-card a img {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+  -webkit-filter: alpha(opacity=50);
+  transition-duration: 1s;
+}
+
+.project-img:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.project-description {
+  margin-top: 5rem;
+  width: 29%;
+  height: 20%;
+  right: 20rem;
+  background-color: #380138;
+  padding: 25px;
+  box-shadow: 10px 10px 40px -15px;
+  position: absolute;
+}
+
+.project-description-left {
+  margin-top: 5rem;
+  width: 29%;
+  height: 20%;
+  background-color: #380138;
+  padding: 25px;
+  box-shadow: 10px 10px 40px -15px;
+  position: absolute;
+  z-index: 2;
+}
+.blog-project-title {
+  margin: 0 0 20% 25%;
+}
+.portfolio-project-title {
+  margin: 0 0 20% 21%;
+}
+
+.portfolio-project-title-left {
+  margin: 0 0 20% 2%;
+}
+
+/* Contact section */
+.contact-content {
+  margin: 10% 15%;
+  text-align: center;
+}
+
+.contact-form {
+  width: 50%;
+  margin-left: 25%;
+}
+
+#contact h3 p {
+  text-align: start;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #42c0fc;
+  background-color: #280028;
+  border-radius: 2px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 17px;
+  resize: vertical;
+  font-size: 1.2rem;
+  box-shadow: 0px 20px 30px -20px #0f0f0f;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  color: #fff;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #280028;
+  color: #ccd6f6;
+  border: 1px solid #42c0fc;
+  font-size: 1.2rem;
+}
+input:-internal-autofill-selected {
+  background-color: #280028 !important;
+  color: #fff !important;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: none !important;
+}
+.contact-content h3 p {
+  margin: 50px 150px;
+}
+
+#email-button {
+  text-align: center;
+}
+
+#email-button a {
+  background-color: #280028;
+  color: #42c0fc;
+  border: 2px solid;
+  border-color: #42c0fc;
+  padding: 15px 50px;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 2rem 30%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#email-button a:hover {
+  background-color: #42c0fc;
+  opacity: 0.8;
+  color: #280028;
+}
+
+/* Social Icons */
+.icons-left {
+  width: 30px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social li {
+  margin: 30px;
+}
+
+.social li a img {
+  width: 30px;
+  height: 30px;
+}
+
+.vertical-line {
+  border-left: 3px solid;
+  height: 120px;
+  margin: 0px 40px;
+  bottom: 0px;
+}
+
+.vertical-line-right {
+  border-left: 3px solid;
+  height: 120px;
+  margin: 0px 10px;
+  bottom: 0px;
+}
+
+.mail {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: 40px;
+}
+
+.email-right a {
+  margin: 30px auto;
+  writing-mode: vertical-rl;
+  color: #42c0fc;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+footer p {
+  text-align: center;
+  font-size: 18px;
+  bottom: 0;
+}

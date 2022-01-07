@@ -1,0 +1,160 @@
+@media only screen and (min-width: 700px) {
+  .mobile-icons {
+    display: none;
+  }
+  #mobile-menu {
+    display: none;
+  }
+  #toogle-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* #navigation {
+    display: none;
+  } */
+
+  .hamburger-icon {
+    height: 45px;
+  }
+
+  #toogle-menu {
+    margin-top: 30%;
+    text-align: center;
+    display: none;
+    background-color: #330133;
+    /* border: solid black 1px;
+   */
+    padding: 20px;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #mobile-menu {
+    float: right;
+  }
+  .logo-img {
+    height: 70px;
+    margin-top: 15px;
+  }
+
+  .mail {
+    display: none;
+  }
+  .mobile-icons {
+    margin: 10% -10%;
+  }
+  .icons-left {
+    position: absolute;
+  }
+  .social {
+    flex-direction: row;
+  }
+  .icons-left {
+    display: none;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+  #homepage {
+    margin-top: 30%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .sticky {
+    top: 0px;
+  }
+  .title,
+  .about-us-content,
+  .contact-content {
+    margin: 2% 10%;
+  }
+  #email-button a {
+    margin: 1%;
+  }
+
+  .skills-list-item {
+    padding-left: 0;
+  }
+
+  .filter {
+    margin: 5% 0;
+  }
+  .left {
+    width: 100%;
+  }
+  .about-us-content {
+    flex-direction: column-reverse;
+  }
+
+  .title-project {
+    text-align: start;
+    margin-left: 10%;
+  }
+
+  .hr-project {
+    border-color: #42c0fb;
+    width: 89% !important;
+    margin-right: 30%;
+  }
+
+  .projects-content,
+  .project-right-card {
+    margin-left: 0;
+  }
+  .project-left-card {
+    cursor: default;
+    background-color: transparent;
+  }
+
+  .project-left-card a img {
+    cursor: default;
+    opacity: 1;
+  }
+  .project-right-card {
+    background-color: transparent;
+  }
+  .project-right-card a img {
+    cursor: default;
+    opacity: 0.9;
+  }
+  .project-description,
+  .project-description-left {
+    display: none;
+  }
+
+  .projects-content {
+    flex-direction: column;
+  }
+  .projects-content:nth-of-type(2) {
+    flex-direction: column-reverse;
+  }
+
+  .blog-project-title,
+  .portfolio-project-title-left {
+    margin: 2% 5%;
+  }
+  .portfolio-image {
+    width: 90%;
+    margin-left: 56%;
+  }
+  .contact-form {
+    width: 100%;
+    margin-left: 1%;
+  }
+  input,
+  textarea {
+    border-top: none;
+  }
+}
