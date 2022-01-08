@@ -8,5 +8,20 @@ function switchVisible() {
     visible.style.display = "none";
     mainSection.style.marginTop = "30%";
   }
-  console.log(visible.style.display);
+}
+
+function send() {
+  emailjs
+    .send("service_fw25tip", "template_fc3evic", {
+      from_name: document.querySelector("#fname").value,
+      message: document.querySelector("#subject").value,
+      reply_to: document.querySelector("#email").value,
+    })
+    .then((response) => {
+      console.log("succes", response.status);
+      alert("Message sent to Sara!");
+    }),
+    (error) => {
+      console.log(error);
+    };
 }

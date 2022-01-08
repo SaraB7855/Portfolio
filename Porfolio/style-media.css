@@ -11,10 +11,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  /* #navigation {
-    display: none;
-  } */
-
   .hamburger-icon {
     height: 45px;
   }
@@ -23,9 +19,8 @@
     margin-top: 30%;
     text-align: center;
     display: none;
-    background-color: #330133;
-    /* border: solid black 1px;
-   */
+    background-color: #051227;
+
     padding: 20px;
   }
 

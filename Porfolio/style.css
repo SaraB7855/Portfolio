@@ -2,7 +2,7 @@
   font-family: Consolas;
 }
 .oswald-font {
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald, sans-serif;
 }
 .filter {
   filter: invert(67%) sepia(51%) saturate(1805%) hue-rotate(169deg)
@@ -37,7 +37,7 @@ h3 {
 }
 
 .site-background {
-  background-color: #280028;
+  background-color: #0a192f;
   margin: 1% 2% 0 2%;
 }
 
@@ -48,7 +48,7 @@ h3 {
 nav {
   display: flex;
   height: 100px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .nav-links {
@@ -70,8 +70,8 @@ nav {
 .sticky {
   position: fixed;
   top: 0px;
-  width: 95%;
-  background-color: #280028;
+  width: 97%;
+  background-color: #0a192f;
 }
 
 .logo-img {
@@ -165,9 +165,9 @@ nav {
 .project-description {
   margin-top: 5rem;
   width: 29%;
-  height: 20%;
+  height: 15%;
   right: 20rem;
-  background-color: #380138;
+  background-color: #051227;
   padding: 25px;
   box-shadow: 10px 10px 40px -15px;
   position: absolute;
@@ -176,8 +176,8 @@ nav {
 .project-description-left {
   margin-top: 5rem;
   width: 29%;
-  height: 20%;
-  background-color: #380138;
+  height: 17%;
+  background-color: #051227;
   padding: 25px;
   box-shadow: 10px 10px 40px -15px;
   position: absolute;
@@ -213,7 +213,7 @@ textarea {
   width: 100%;
   padding: 12px;
   border: 2px solid #42c0fc;
-  background-color: #280028;
+  background-color: #0a192f;
   border-radius: 2px;
   border-top: none;
   border-right: none;
@@ -233,13 +233,13 @@ textarea {
 
 input:focus,
 textarea:focus {
-  background-color: #280028;
+  background-color: #0a192f;
   color: #ccd6f6;
   border: 1px solid #42c0fc;
   font-size: 1.2rem;
 }
 input:-internal-autofill-selected {
-  background-color: #280028 !important;
+  background-color: #0a192f !important;
   color: #fff !important;
 }
 
@@ -256,7 +256,7 @@ textarea:focus-visible {
 }
 
 #email-button a {
-  background-color: #280028;
+  background-color: #0a192f;
   color: #42c0fc;
   border: 2px solid;
   border-color: #42c0fc;
